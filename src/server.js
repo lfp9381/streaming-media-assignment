@@ -24,7 +24,7 @@ const onRequest = (request, response) => {
       break;
 
     default:
-      htmlHandler.getIndex(request, response);
+      htmlHandler.getIndex(request, response, '../client/bird.mp4', 'video/mp4');
       break;
   }
 };
